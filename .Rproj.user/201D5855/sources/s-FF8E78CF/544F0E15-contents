@@ -74,7 +74,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Software R: capacitação em análise estatística de dados utilizando um software livre
+**Software R: capacitação em análise estatística de dados utilizando um software livre**
 
 O objetivo principal do projeto é atender alunos, bolsistas, comunidade interna e externa através de cursos de capacitação na análise de dados primários ou secundários utilizando um software livre de análise estatística, especificamente o software R em seu console RStudio. Ainda, objetiva-se a troca de experiências vinculando dados provindos de diferentes pesquisas dos participantes.
 
