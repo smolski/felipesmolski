@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2630879591",
+    "hash" : "0",
     "id" : "9C487CB0",
     "lastKnownWriteTime" : 1557517713,
     "last_content_update" : 1557517713,
     "path" : "D:/Github/felipesmolski/content/home/hero.md",
     "project_path" : "content/home/hero.md",
     "properties" : {
+        "cursorPosition" : "54,161",
+        "scrollLine" : "34"
     },
     "relative_order" : 7,
     "source_on_save" : false,
