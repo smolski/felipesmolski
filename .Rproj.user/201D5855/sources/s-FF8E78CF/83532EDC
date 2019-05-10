@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "690229814",
+    "hash" : "0",
     "id" : "83532EDC",
     "lastKnownWriteTime" : 1557517713,
     "last_content_update" : 1557517713,
-    "path" : "D:/Github/felipesmolski/content/home/demo.md",
-    "project_path" : "content/home/demo.md",
+    "path" : "D:/Github/felipesmolski/content/home/demoxxx.md",
+    "project_path" : "content/home/demoxxx.md",
     "properties" : {
+        "cursorPosition" : "63,34",
+        "scrollLine" : "54"
     },
     "relative_order" : 10,
     "source_on_save" : false,
