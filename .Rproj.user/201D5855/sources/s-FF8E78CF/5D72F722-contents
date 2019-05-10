@@ -15,7 +15,7 @@ role: Professor of Artificial Intelligence
 # Organizations/Affiliations
 organizations:
 - name: Stanford University
-#  url: ""
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
  bio: Possui graduação em Ciências Econômicas pela Universidade Regional do Noroeste do Estado do Rio Grande do Sul - UNIJUÍ (2009), pós-graduação em Gestão de Investimentos pela Faculdade Integrada Grande Fortaleza - FGF (2012), mestrado em Desenvolvimento e Políticas Públicas pela Universidade Federal da Fronteira Sul - UFFS, Campus Cerro Largo (2017).
