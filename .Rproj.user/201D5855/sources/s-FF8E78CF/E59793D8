@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1557530869043.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "838818672",
+    "id" : "E59793D8",
+    "lastKnownWriteTime" : 1557527937,
+    "last_content_update" : 1557527937,
+    "path" : "D:/Github/felipesmolski/config/_default/menus.pt.toml",
+    "project_path" : "config/_default/menus.pt.toml",
+    "properties" : {
+    },
+    "relative_order" : 18,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}
