@@ -5,7 +5,7 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "104712862",
+    "hash" : "0",
     "id" : "75F934D4",
     "lastKnownWriteTime" : 1557530727,
     "last_content_update" : 1557530727357,
@@ -13,7 +13,7 @@
     "project_path" : "themes/academic/i18n/pt.yaml",
     "properties" : {
         "cursorPosition" : "61,17",
-        "scrollLine" : "51"
+        "scrollLine" : "0"
     },
     "relative_order" : 17,
     "source_on_save" : false,

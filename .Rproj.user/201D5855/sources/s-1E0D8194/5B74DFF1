@@ -13,7 +13,7 @@
     "project_path" : "config/_default/menus.toml",
     "properties" : {
         "cursorPosition" : "21,22",
-        "scrollLine" : "7"
+        "scrollLine" : "0"
     },
     "relative_order" : 17,
     "source_on_save" : false,
