@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3803194702",
+    "hash" : "0",
     "id" : "2F90D013",
-    "lastKnownWriteTime" : 1557517713,
-    "last_content_update" : 1557517713,
+    "lastKnownWriteTime" : 1557541827,
+    "last_content_update" : 1557541827,
     "path" : "D:/Github/felipesmolski/content/talk/_index.md",
     "project_path" : "content/talk/_index.md",
     "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0"
     },
     "relative_order" : 13,
     "source_on_save" : false,
