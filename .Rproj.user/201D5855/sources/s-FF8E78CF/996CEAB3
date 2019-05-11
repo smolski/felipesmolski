@@ -1,20 +1,20 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1557522257339.000,
+    "created" : 1557517950143.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2775612804",
-    "id" : "A6DA9B4A",
+    "hash" : "1011535815",
+    "id" : "996CEAB3",
     "lastKnownWriteTime" : 1557517713,
     "last_content_update" : 1557517713,
-    "path" : "D:/Github/felipesmolski/config/_default/languages.toml",
-    "project_path" : "config/_default/languages.toml",
+    "path" : "D:/Github/felipesmolski/content/home/slider.md",
+    "project_path" : "content/home/slider.md",
     "properties" : {
     },
-    "relative_order" : 16,
+    "relative_order" : 4,
     "source_on_save" : false,
     "source_window" : "",
-    "type" : "toml"
+    "type" : "markdown"
 }

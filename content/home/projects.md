@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "Projetos"
+title = "Projects"
 subtitle = ""
 
 [content]
@@ -73,10 +73,4 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-**Software R: capacitação em análise estatística de dados utilizando um software livre**
-
-O objetivo principal do projeto é atender alunos, bolsistas, comunidade interna e externa através de cursos de capacitação na análise de dados primários ou secundários utilizando um software livre de análise estatística, especificamente o software R em seu console RStudio. Ainda, objetiva-se a troca de experiências vinculando dados provindos de diferentes pesquisas dos participantes.
-
-https://smolski.github.io/softwarelivrer/
 
