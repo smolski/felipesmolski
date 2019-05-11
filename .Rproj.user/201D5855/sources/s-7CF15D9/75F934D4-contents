@@ -59,7 +59,7 @@
 - id: more_publications
   translation: Mais Publicações
 - id: contact_name
-  translation: Nome
+  translation: Name
 - id: contact_email
   translation: Email
 - id: contact_message
