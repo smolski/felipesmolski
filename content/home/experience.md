@@ -19,26 +19,23 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Bancário"
-  company = "Banrisl"
+  company = "Banrisul"
   company_url = ""
-  location = "Ijuí, Brasil"
+  location = "Ijuí"
   date_start = "2010-06-20"
   date_end = ""
   description = """
   Responsibilities include:
   
-  # * Analysing
-  # * Modelling
-  # * Deploying
   """
 
 [[experience]]
   title = "Assessor Administrativo"
   company = "Prefeitura de Ijuí"
   company_url = ""
-  location = "Ijuí, Brasil"
+  location = "Ijuí"
   date_start = "2009-01-01"
-  # date_end = "2016-12-31"
-  # description = """Taught electronic engineering and researched semiconductor physics."""
+  date_end = "2010-06-20"
+  description = ""
 
 +++
