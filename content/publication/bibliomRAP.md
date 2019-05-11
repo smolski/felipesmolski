@@ -9,8 +9,8 @@ publication_short: '*RAP*'
 publication_types: ["2"]
 selected: true
 url_pdf: 'http://dx.doi.org/10.1590/0034-761220170046'
-# url_code: ''
-# url_dataset: ''
+url_code: ''
+url_dataset: ''
 header:
   image: 'headers/toph_sd.png'
 output: html_document
