@@ -10,7 +10,6 @@
 # Uncomment the lines below to configure your website in a second language.
 [pt]
   languageCode = "pt-br"
-  contentDir = "content/"
   title = "Chinese website title..."
   [pt.params]
     description = "Site description in Chinese..."
