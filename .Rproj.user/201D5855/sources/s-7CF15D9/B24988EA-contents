@@ -1,9 +1,9 @@
 +++
-title = "Análise do perfil da produção científica da Revista de Administração Pública (RAP) no período 2003-16"
-date = 2017-12-01T00:00:00
+title = "An example journal article"
+date = 2015-09-01T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["FMS Smolski", "D Dalcin", "MS Visentini", "J Bamberg", "JS Kern"]
+authors = ["admin"]
 
 # Publication type.
 # Legend:
@@ -19,17 +19,17 @@ authors = ["FMS Smolski", "D Dalcin", "MS Visentini", "J Bamberg", "JS Kern"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "*Revista de Administração Pública (RAP)*"
-publication_short = "RAP"
+publication = "*Journal of Source Themes, 1*(1)"
+publication_short = ""
 
 # Abstract.
-abstract = "Neste artigo efetuou-se uma investigação acerca das transformações dos trabalhos publicados na Revista de Administração Pública (RAP) no período de 2003 a 2016, por meio da pesquisa bibliométrica. Como resultados principais, observou-se a consolidação do campo, com aumento no número de autores por artigo onde a maioria deles são masculinos, mas com elevação na participação de pesquisadoras mulheres, em um contexto onde a maior parte dos autores é de brasileiros provenientes de instituições públicas. Incrementaram-se trabalhos do tipo estudo de caso, de abordagem aplicada e com metodologia quantitativa, em comparação a trabalhos publicados nos anos de 1994 a 2002."
+abstract = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida."
 
 # Summary. An optional shortened abstract.
-summary = ""
+summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum."
 
 # Digital Object Identifier (DOI)
-doi = "http://dx.doi.org/10.1590/0034-761220170046"
+doi = ""
 
 # Is this a featured publication? (true/false)
 featured = false
