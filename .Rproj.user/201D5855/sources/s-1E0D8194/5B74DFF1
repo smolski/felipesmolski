@@ -5,7 +5,7 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "838818672",
+    "hash" : "0",
     "id" : "5B74DFF1",
     "lastKnownWriteTime" : 1557527937,
     "last_content_update" : 1557527937366,
@@ -13,7 +13,7 @@
     "project_path" : "config/_default/menus.toml",
     "properties" : {
         "cursorPosition" : "28,1",
-        "scrollLine" : "7"
+        "scrollLine" : "0"
     },
     "relative_order" : 17,
     "source_on_save" : false,
