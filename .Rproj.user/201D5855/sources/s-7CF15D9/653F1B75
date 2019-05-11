@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "758401351",
+    "hash" : "0",
     "id" : "653F1B75",
-    "lastKnownWriteTime" : 1557618475,
-    "last_content_update" : 1557618475362,
+    "lastKnownWriteTime" : 1557619144,
+    "last_content_update" : 1557619144849,
     "path" : "D:/Github/felipesmolski/content/home/publications.md",
     "project_path" : "content/home/publications.md",
     "properties" : {
-        "cursorPosition" : "38,10",
-        "scrollLine" : "7"
+        "cursorPosition" : "56,0",
+        "scrollLine" : "32"
     },
     "relative_order" : 8,
     "source_on_save" : false,
