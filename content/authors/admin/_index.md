@@ -54,7 +54,7 @@ social:
   icon_pack: fab
   link: https://www.researchgate.net/profile/Felipe_Smolski?ev=hdr_xprfR
 - icon: lattes
-  icon_pack: fab
+  icon_pack: ai
   link: http://lattes.cnpq.br/0578969416600036  
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
