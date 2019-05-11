@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3811489944",
+    "hash" : "2521211495",
     "id" : "A527E401",
-    "lastKnownWriteTime" : 1557616436,
-    "last_content_update" : 1557616436,
+    "lastKnownWriteTime" : 1557617235,
+    "last_content_update" : 1557617235289,
     "path" : "D:/Github/felipesmolski/content/publication/2017rap/index.md",
     "project_path" : "content/publication/2017rap/index.md",
     "properties" : {
+        "cursorPosition" : "17,25",
+        "scrollLine" : "3"
     },
     "relative_order" : 9,
     "source_on_save" : false,
