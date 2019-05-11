@@ -29,14 +29,14 @@ abstract = "Neste artigo efetuou-se uma investigação acerca das transformaçõ
 summary = ""
 
 # Digital Object Identifier (DOI)
-doi = "http://dx.doi.org/10.1590/0034-761220170046"
+doi = "10.1590/0034-761220170046"
 
 # Is this a featured publication? (true/false)
 featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Source Themes"]
+tags = ["Artigos"]
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -55,7 +55,7 @@ projects = []
 slides = "example"
 
 # Links (optional).
-url_pdf = "http://arxiv.org/pdf/1512.04133v1"
+url_pdf = "http://dx.doi.org/10.1590/0034-761220170046"
 url_code = ""
 url_dataset = ""
 url_project = ""
