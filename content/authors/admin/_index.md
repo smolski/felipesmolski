@@ -48,7 +48,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/smolski
-- icon: fa-researchgate
+- icon: researchgate
   icon_pack: fab
   link: https://www.researchgate.net/profile/Felipe_Smolski?ev=hdr_xprfR
 # Link to a PDF of your resume/CV from the About widget.
