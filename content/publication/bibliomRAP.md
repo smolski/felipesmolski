@@ -1,6 +1,5 @@
 ---
 title: 'Análise do perfil da produção científica da Revista de Administração Pública (RAP) no período 2003-16'
-
 abstract: 'Neste artigo efetuou-se uma investigação acerca das transformações dos trabalhos publicados na Revista de Administração Pública (RAP) no período de 2003 a 2016, por meio da pesquisa bibliométrica. Como resultados principais, observou-se a consolidação do campo, com aumento no número de autores por artigo onde a maioria deles são masculinos, mas com elevação na participação de pesquisadoras mulheres, em um contexto onde a maior parte dos autores é de brasileiros provenientes de instituições públicas. Incrementaram-se trabalhos do tipo estudo de caso, de abordagem aplicada e com metodologia quantitativa, em comparação a trabalhos publicados nos anos de 1994 a 2002.'
 abstract_short:''
 authors: "[FMS Smolski", "D Dalcin", "MS Visentini", "J Bamberg", "JS Kern"]
