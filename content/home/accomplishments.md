@@ -24,8 +24,8 @@ date_format = "Jan 2006"
   title = "Big Data Fundamentos (Carga horária: 8h)"
   url = ""
   certificate_url = ""
-  date_start = "2017-07-01"
-  date_end = "2019-03-01"
+  date_start = "2019-03-01"
+  date_end = ""
   description = ""
 
   
@@ -89,8 +89,8 @@ date_format = "Jan 2006"
   title = "Séries Temporais e Análises Preditivas. (Carga horária: 6h)"
   url = ""
   certificate_url = ""
-  date_start = ""
-  date_end = "2018-12-01"
+  date_start = "2018-12-01"
+  date_end = ""
   description = ""
 
 [[item]]
@@ -99,8 +99,8 @@ date_format = "Jan 2006"
   title = "Netlytic - Online. (Carga horária: 4h)"
   url = ""
   certificate_url = ""
-  date_start = ""
-  date_end = "2018-12-01"
+  date_start = "2018-12-01"
+  date_end = ""
   description = ""
 
 [[item]]
@@ -109,8 +109,8 @@ date_format = "Jan 2006"
   title = "Redação Científica: por que erramos?. (Carga horária: 4h)"
   url = ""
   certificate_url = ""
-  date_start = ""
-  date_end = "2018-12-01"
+  date_start = "2018-12-01"
+  date_end = ""
   description = ""
 
 +++
