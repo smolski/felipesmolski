@@ -28,6 +28,8 @@ date_format = "Jan 2006"
   date_end = "2019-03-01"
   description = ""
 
+  """
+  
   organization = "Data Science Academy, DSA, Brasil"
   organization_url = ""
   title = "Microsoft Power BI para Data Science. (Carga horária: 54h)"
@@ -37,6 +39,8 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
+  """
+  
   organization = "Data Science Academy, DSA, Brasil"
   organization_url = ""
   title = "Inteligência Artificial Fundamentos. (Carga horária: 8h)"
@@ -46,6 +50,8 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
+  """
+  
   organization = "Data Science Academy, DSA, Brasil"
   organization_url = ""
   title = "Introdução à Ciência de Dados 2.0. (Carga horária: 8h)"
@@ -54,6 +60,8 @@ date_format = "Jan 2006"
   date_start = "2019-04-01"
   date_end = ""
   description = ""
+
+  """
 
   organization = "Data Science Academy, DSA, Brasil"
   organization_url = ""
@@ -64,6 +72,8 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
+  """
+
   organization = "Isaias Lira, UDEMY, Brasil"
   organization_url = ""
   title = "Data Science com R: Criando Mapas. (Carga horária: 3h)"
@@ -73,6 +83,8 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
+  """
+  
   organization = "Fernando Amaral, UDEMY, Brasil"
   organization_url = ""
   title = "Séries Temporais e Análises Preditivas. (Carga horária: 6h)"
@@ -81,6 +93,8 @@ date_format = "Jan 2006"
   date_start = ""
   date_end = "2018-12-01"
   description = ""
+
+  """
 
   organization = "Instituto Brasileiro de Pesquisas e Análises de Dados, IBPAD, Brasil"
   organization_url = ""
@@ -91,6 +105,8 @@ date_format = "Jan 2006"
   date_end = "2018-12-01"
   description = ""
 
+  """
+
   organization = "Gilson Volpato, UNIJUÍ, Brasil"
   organization_url = ""
   title = "Redação Científica: por que erramos?. (Carga horária: 4h)"
@@ -99,7 +115,6 @@ date_format = "Jan 2006"
   date_start = ""
   date_end = "2018-12-01"
   description = ""
-
 
 +++
 
