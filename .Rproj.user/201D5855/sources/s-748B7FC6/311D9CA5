@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1557624623902.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3237544566",
+    "id" : "311D9CA5",
+    "lastKnownWriteTime" : 1557624638,
+    "last_content_update" : 1557624638190,
+    "path" : "D:/Github/felipesmolski/config/_default/languages.toml",
+    "project_path" : "config/_default/languages.toml",
+    "properties" : {
+        "cursorPosition" : "6,20",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}
