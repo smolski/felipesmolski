@@ -1,21 +1,21 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1557522272256.000,
+    "created" : 1557602377000.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3764820858",
-    "id" : "54152B70",
-    "lastKnownWriteTime" : 1557522716,
-    "last_content_update" : 1557522716852,
+    "hash" : "720670071",
+    "id" : "3ECCDE98",
+    "lastKnownWriteTime" : 1557623813,
+    "last_content_update" : 1557623813408,
     "path" : "D:/Github/felipesmolski/config/_default/params.toml",
     "project_path" : "config/_default/params.toml",
     "properties" : {
-        "cursorPosition" : "142,35",
+        "cursorPosition" : "34,12",
         "scrollLine" : "0"
     },
-    "relative_order" : 18,
+    "relative_order" : 6,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "toml"
