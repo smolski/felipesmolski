@@ -28,8 +28,7 @@ date_format = "Jan 2006"
   date_end = "2019-03-01"
   description = ""
 
-
-
++++
 
 
 # 2019 - 2019
@@ -86,5 +85,3 @@ date_format = "Jan 2006"
 # 2005 - 2007
 # Inglês. (Carga horária: 100h). 
 # ALTERNATIVE LANGUAGE LEARNING, ALL, Brasil.
-
-+++
