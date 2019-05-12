@@ -19,7 +19,7 @@ authors = ["FMS Smolski", "D Dalcin", "MS Visentini", "J Bamberg", "JS Kern"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "*Revista de Administração Pública (RAP)*"
+publication = "*Revista de Administração Pública (RAP),  v. 51, n. 6*"
 publication_short = "RAP"
 
 # Abstract.
