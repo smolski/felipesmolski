@@ -106,7 +106,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Gilson Volpato, UNIJUÍ, Brasil"
   organization_url = ""
-  title = "Redação Científica: por que erramos?. (Carga horária: 4h)"
+  title = "Redação Científica: por que erramos? (Carga horária: 4h)"
   url = ""
   certificate_url = ""
   date_start = "2018-12-01"
