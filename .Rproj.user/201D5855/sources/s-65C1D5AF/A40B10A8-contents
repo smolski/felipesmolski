@@ -26,7 +26,6 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
   
-  """
 
 [[experience]]
   title = "Assessor Administrativo"
@@ -39,5 +38,3 @@ date_format = "Jan 2006"
 
 +++
 
-# Responsibilities include:
-  
