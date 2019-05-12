@@ -28,7 +28,7 @@ date_format = "Jan 2006"
   date_end = "2019-03-01"
   description = ""
 
-  """
+  
 [[item]]  
   organization = "Data Science Academy, DSA, Brasil"
   organization_url = ""
@@ -39,7 +39,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
-  """
+  
 [[item]]  
   organization = "Data Science Academy, DSA, Brasil"
   organization_url = ""
@@ -50,7 +50,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
-  """
+  
 [[item]]  
   organization = "Data Science Academy, DSA, Brasil"
   organization_url = ""
@@ -61,7 +61,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
-  """
+  
 [[item]]
   organization = "Data Science Academy, DSA, Brasil"
   organization_url = ""
@@ -72,7 +72,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
-  """
+  
 [[item]]
   organization = "Isaias Lira, UDEMY, Brasil"
   organization_url = ""
@@ -83,7 +83,6 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
-  """
 [[item]]  
   organization = "Fernando Amaral, UDEMY, Brasil"
   organization_url = ""
@@ -94,7 +93,6 @@ date_format = "Jan 2006"
   date_end = "2018-12-01"
   description = ""
 
-  """
 [[item]]
   organization = "Instituto Brasileiro de Pesquisas e Análises de Dados, IBPAD, Brasil"
   organization_url = ""
@@ -105,7 +103,6 @@ date_format = "Jan 2006"
   date_end = "2018-12-01"
   description = ""
 
-  """
 [[item]]
   organization = "Gilson Volpato, UNIJUÍ, Brasil"
   organization_url = ""
