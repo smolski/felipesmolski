@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   location = "Ijuí"
   date_start = "2010-06-20"
   date_end = ""
-  description = """
+  description = ""
   
   """
 

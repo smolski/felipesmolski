@@ -29,7 +29,7 @@ date_format = "Jan 2006"
   description = ""
 
   """
-  
+[[item]]  
   organization = "Data Science Academy, DSA, Brasil"
   organization_url = ""
   title = "Microsoft Power BI para Data Science. (Carga horária: 54h)"
@@ -40,7 +40,7 @@ date_format = "Jan 2006"
   description = ""
 
   """
-  
+[[item]]  
   organization = "Data Science Academy, DSA, Brasil"
   organization_url = ""
   title = "Inteligência Artificial Fundamentos. (Carga horária: 8h)"
@@ -51,7 +51,7 @@ date_format = "Jan 2006"
   description = ""
 
   """
-  
+[[item]]  
   organization = "Data Science Academy, DSA, Brasil"
   organization_url = ""
   title = "Introdução à Ciência de Dados 2.0. (Carga horária: 8h)"
@@ -62,7 +62,7 @@ date_format = "Jan 2006"
   description = ""
 
   """
-
+[[item]]
   organization = "Data Science Academy, DSA, Brasil"
   organization_url = ""
   title = "Business Analytics. (Carga horária: 44h)"
@@ -73,7 +73,7 @@ date_format = "Jan 2006"
   description = ""
 
   """
-
+[[item]]
   organization = "Isaias Lira, UDEMY, Brasil"
   organization_url = ""
   title = "Data Science com R: Criando Mapas. (Carga horária: 3h)"
@@ -84,7 +84,7 @@ date_format = "Jan 2006"
   description = ""
 
   """
-  
+[[item]]  
   organization = "Fernando Amaral, UDEMY, Brasil"
   organization_url = ""
   title = "Séries Temporais e Análises Preditivas. (Carga horária: 6h)"
@@ -95,7 +95,7 @@ date_format = "Jan 2006"
   description = ""
 
   """
-
+[[item]]
   organization = "Instituto Brasileiro de Pesquisas e Análises de Dados, IBPAD, Brasil"
   organization_url = ""
   title = "Netlytic - Online. (Carga horária: 4h)"
@@ -106,7 +106,7 @@ date_format = "Jan 2006"
   description = ""
 
   """
-
+[[item]]
   organization = "Gilson Volpato, UNIJUÍ, Brasil"
   organization_url = ""
   title = "Redação Científica: por que erramos?. (Carga horária: 4h)"
