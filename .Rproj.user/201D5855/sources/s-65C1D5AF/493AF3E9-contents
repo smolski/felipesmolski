@@ -59,7 +59,10 @@ social:
   link: https://www.linkedin.com/in/felipe-smolski/
 - icon: r-project
   icon_pack: fab
-  link: https://smolski.github.io/softwarelivrer/  
+  link: https://smolski.github.io/softwarelivrer/
+- icon: mendeley
+  icon_pack: fab
+  link: https://smolski.gitbooks.io/mendeley/content/  
   
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
