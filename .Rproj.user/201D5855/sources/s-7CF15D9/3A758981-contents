@@ -26,17 +26,7 @@ subtitle = ""
     tag = ""
     category = ""
     publication_type = "-1"
-# Filter by publication type.
-# -1: Any
-#  0: Uncategorized
-#  1: Conference proceedings
-#  2: Journal
-#  3: Work in progress
-#  4: Technical report
-#  5: Book
-#  6: Book chapter
-# publication_type = "-1"
-  
+    
 [design]
   # Toggle between the various page layout types.
   #   1 = List
