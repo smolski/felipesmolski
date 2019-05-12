@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "353502632",
     "id" : "601AB40F",
-    "lastKnownWriteTime" : 1557622108,
-    "last_content_update" : 1557622108044,
+    "lastKnownWriteTime" : 1557623910,
+    "last_content_update" : 1557623910629,
     "path" : "D:/Github/felipesmolski/config/_default/config.toml",
     "project_path" : "config/_default/config.toml",
     "properties" : {
-        "cursorPosition" : "52,19",
-        "scrollLine" : "36"
+        "cursorPosition" : "18,19",
+        "scrollLine" : "0"
     },
     "relative_order" : 12,
     "source_on_save" : false,
