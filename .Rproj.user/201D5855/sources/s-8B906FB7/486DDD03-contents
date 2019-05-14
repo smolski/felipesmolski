@@ -2,9 +2,13 @@
 ---
 title: "Creating 96-Well Plates in R"
 author: "Frida Gomam"
-date: 2019-05-14T21:13:14-05:00
-categories: ["R"]
-tags: ["R"]
+date: '2019-05-14T21:13:14-05:00'
+tags: R
+categories: R
+output: 
+  html_document: 
+    fig_caption: yes
+    keep_md: yes
 ---
 
 This week I did some virus neutralization test and I was wondering if there is any way to show the results in 96-well plate format. I was trying to find if there is any R package that can do this. Actually there is one (or might be more). I found a package called **platetools** that can plot values in plate format. 
