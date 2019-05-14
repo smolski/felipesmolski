@@ -1,16 +1,13 @@
 ---
 title: Exemplo RStudio
+summary: exemplo R
 author: Felipe Smolski
-date: '2019-05-13'
-categories:
+date: '2019-05-15'
+slug: exemplo
+categories: []
+tags:
   - Rmd
   - RStudio
-tags:
-  - r
-  - dplyr
-image:
-  caption: ''
-  focal_point: ''
 ---
 
 
