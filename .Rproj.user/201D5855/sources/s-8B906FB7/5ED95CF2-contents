@@ -54,4 +54,4 @@ You can also embed plots. See Figure @ref(fig:pie) for example:
     )
 
 ![A fancy pie
-chart.](pie-1.png)
+chart.](img/pie-1.png)
