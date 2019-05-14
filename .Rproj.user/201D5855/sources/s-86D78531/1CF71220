@@ -1,20 +1,19 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1557860252951.000,
+    "created" : 1557860535970.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
-    "id" : "641B9AE",
+    "id" : "1CF71220",
     "lastKnownWriteTime" : 1557860278,
-    "last_content_update" : 1557860278098,
-    "path" : "D:/Github/felipesmolski/content/post/2019-05-13-r-rmarkdown.Rmd",
-    "project_path" : "content/post/2019-05-13-r-rmarkdown.Rmd",
+    "last_content_update" : 1557860278,
+    "path" : "D:/Github/felipesmolski/content/post/2019-05-13outropost/2019-05-13-r-rmarkdown.Rmd",
+    "project_path" : "content/post/2019-05-13outropost/2019-05-13-r-rmarkdown.Rmd",
     "properties" : {
         "cursorPosition" : "15,0",
-        "scrollLine" : "0",
-        "tempName" : "Untitled1"
+        "scrollLine" : "0"
     },
     "relative_order" : 4,
     "source_on_save" : false,
