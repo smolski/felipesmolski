@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "3322908817",
     "id" : "5ED95CF2",
-    "lastKnownWriteTime" : 1557869380,
-    "last_content_update" : 1557869380289,
+    "lastKnownWriteTime" : 1557869730,
+    "last_content_update" : 1557869730191,
     "path" : "D:/Github/felipesmolski/content/post/2019-05-13outropost/2019-05-13-r-rmarkdown.md",
     "project_path" : "content/post/2019-05-13outropost/2019-05-13-r-rmarkdown.md",
     "properties" : {
-        "cursorPosition" : "9,12",
-        "scrollLine" : "0"
+        "cursorPosition" : "56,8",
+        "scrollLine" : "27"
     },
     "relative_order" : 6,
     "source_on_save" : false,
