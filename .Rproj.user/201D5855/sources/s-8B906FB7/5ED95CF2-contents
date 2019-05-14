@@ -1,13 +1,13 @@
 ---
-title: Mensagem de Boas Vindas
+title: Post de teste RMarkdown
 summary: Mensagem
 author: Felipe Smolski
 date: '2019-05-11'
-slug: mensagem-de-boas-vindas
+slug: post-teste
 categories: []
 tags:
-  - mensagem
-  - anúncio
+  - rstudio
+  - rmardown
   - r
 ---
 
