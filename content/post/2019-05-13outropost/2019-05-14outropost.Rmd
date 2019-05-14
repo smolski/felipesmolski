@@ -1,14 +1,15 @@
 ---
-title: "Hello R Markdown"
-author: "Felipe Smolski"
+title: Post teste
+summary: Mensagem
+author: Felipe Smolski
 date: '2019-05-14'
+slug: mensagem-de-boas-vindas
+categories: []
 tags:
-- R Markdown
-- plot
-- regression
-categories: R
+  - mensagem
+  - anúncio
+  - r
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
