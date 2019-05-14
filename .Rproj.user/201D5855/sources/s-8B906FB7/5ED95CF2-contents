@@ -53,5 +53,5 @@ You can also embed plots. See Figure @ref(fig:pie) for example:
       init.angle = -50, border = NA
     )
 
-![A fancy pie
-chart.](img/pie-1.png)
+
+<img src="../../img/pie-1.png" alt="" />
