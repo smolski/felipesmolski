@@ -41,7 +41,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$",  "_files$", "_cache$"]
 
-uglyurls = true
+#uglyurls = true
 #[permalinks]
 # post = "/:year/:month/:day/:slug/"
 
