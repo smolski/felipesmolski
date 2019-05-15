@@ -1,5 +1,5 @@
 ---
-title: Market Demand with Instrumental Variables
+title: "Market Demand with Instrumental Variables"
 author: Felipe Smolski
 date: '2019-05-14'
 draft: true
