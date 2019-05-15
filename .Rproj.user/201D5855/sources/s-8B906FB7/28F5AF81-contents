@@ -2,7 +2,7 @@
 title: Market Demand with Instrumental Variables
 author: J. Duncan
 date: '2019-05-14'
-draft: false
+draft: true
 categories: []
 tags:
   - rstats
