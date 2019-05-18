@@ -36,7 +36,7 @@ featured = true
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Artigos", "bibliometria", "gestão pública", "lócus", "focus", "regressão logística"]
+tags = ["bibliometria", "gestão pública", "lócus", "focus", "regressão logística"]
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
