@@ -1,26 +1,63 @@
 # Carga de paquetes ----
 library(shiny)
 library(quantmod)
+library(shinyWidgets)
+library(BatchGetSymbols)
+
+# SP500
+df.sp500 <- GetSP500Stocks()
+#tickers <- df.sp500$tickers
+colnames(df.sp500)[1]='cod'
+colnames(df.sp500)[2]='company'
+
+# IBOVESPA
+df.ibov <- GetIbovStocks()
+print(df.ibov$tickers)
+df.ibov$cod=paste0(df.ibov$tickers, '.SA')
+colnames(df.ibov)[2]='company'
+df.ibov=df.ibov[c(7,2,3,1,4,5,6)]
+
+
+
+
+
+
 
 # Carga fichero helpers ----
 source("helpers.R")
 
-# UI ----
+###################################################################################################
+# UI    ###########################################################################################
+###################################################################################################
 ui <- fluidPage(
-  titlePanel("Stock"),
+
+  navbarPage(
+    theme = "cerulean",  # <--- To use a theme, uncomment this
+    "FSmolski",
+
+  tabPanel("Navbar 1",
+
+  titlePanel("Stock Market"),
 
   sidebarLayout(
     sidebarPanel(
       helpText("Selecione uma ação.
                Fonte: Yahoo finance."),
 
-      textInput("siglas", "Siglas", "DIS"),
+      # textInput("siglas", "Siglas", "DIS"),
+      selectInput(inputId = "siglas",
+                  label = "Códigos ações",
+                  choices = cbind(df.ibov$cod,df.sp500$cod),
+                  selected = 1),
 
       dateRangeInput("fechas",
                      "Intervalo de datas",
                      start = "2013-01-01",
                      format = "dd/mm/yyyy",
+                     separator = 'a',
                      end = as.character(Sys.Date())),
+
+
 
       br(),
       br(),
@@ -32,13 +69,23 @@ ui <- fluidPage(
                     "Ajuste dos dados pela inflação", value = FALSE)
     ),
 
-    mainPanel(plotOutput("plot"))
+    mainPanel(
+      textOutput("var_seleccionada"),
+      plotOutput("plot"),
+      textOutput("b")
+      )
   )
 )
+)
+)
 
-# Server ---
+###################################################################################################
+# Server###########################################################################################
+###################################################################################################
 
 server <- function(input, output) {
+
+
 
   data <- reactive({
     cat("Yahoo Finance \n")
@@ -56,11 +103,32 @@ server <- function(input, output) {
 
       })
 
-    chartSeries(dataAjustada(), theme = chartTheme("black"),
-                type = "line", log.scale = input$log, TA = NULL)
+      output$var_seleccionada <- renderText(
+
+        paste("Empresa selecionada:", input$siglas)
+
+      )
+
+      chartSeries(dataAjustada(),
+                  theme = chartTheme("white"),
+                  type = "candle",
+                  up.col='blue',
+                  dn.col='red',
+                  log.scale = input$log,
+                  TA = NULL)
+    addBBands()
   })
+    re = reactive({
+                paste(input$siglas)
+            })
+          output$b = renderText({re()})
+
+
 
 }
 
-# Run the app
+###################################################################################################
+# Run the app######################################################################################
+###################################################################################################
+
 shinyApp(ui, server)

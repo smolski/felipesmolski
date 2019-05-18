@@ -23,6 +23,11 @@
   url = "#featured"
   weight = 40
 
+[[main]]
+  name = "Apps"
+  url = "#apps"
+  weight = 20
+
 #[[main]]
 #  name = "Contact"
 #  url = "#contact"
