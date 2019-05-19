@@ -1,12 +1,12 @@
 ---
-title: Shiny apps
+title: Apps
 
 # View.
 #   1 = List
 #   2 = Compact
 #   3 = Card
 #   4 = Citation
-#view: 4
+view: 3
 
 # Optional header image (relative to `static/img/` folder).
 header:
@@ -14,5 +14,5 @@ header:
   image: ""
 ---
 
-teste1.1
 
+Shiny Apps teste
