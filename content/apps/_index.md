@@ -14,5 +14,5 @@ header:
   image: ""
 ---
 
-teste1.1
+- [Ditribuições de Frequência](https://smolski.shinyapps.io/distribuicoes/)
 
