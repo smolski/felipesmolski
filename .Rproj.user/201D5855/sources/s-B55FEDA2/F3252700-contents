@@ -25,8 +25,9 @@
 
 [[main]]
   name = "Apps"
-  url = "#apps"
+  url = "/apps/"
   weight = 50
+
 
 
 #[[main]]
