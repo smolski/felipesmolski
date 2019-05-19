@@ -14,5 +14,7 @@ header:
   image: ""
 ---
 
-- [Ditribuições de Frequência](https://smolski.shinyapps.io/distribuicoes/)
+- [Distribuições de Frequência](https://smolski.shinyapps.io/distribuicoes/)
+
+- [Stock Market](https://smolski.shinyapps.io/stock/)
 
