@@ -17,7 +17,7 @@ df.ibov$cod=paste0(df.ibov$tickers, '.SA')
 colnames(df.ibov)[2]='company'
 df.ibov=df.ibov[c(7,2,3,1,4,5,6)]
 
-
+acoes=as.data.frame(rbind(df.ibov[1:2],df.sp500[1:2]))
 
 
 
@@ -47,7 +47,7 @@ ui <- fluidPage(
       # textInput("siglas", "Siglas", "DIS"),
       selectInput(inputId = "siglas",
                   label = "Códigos ações",
-                  choices = cbind(df.ibov$cod,df.sp500$cod),
+                  choices = acoes$cod,
                   selected = 1),
 
       dateRangeInput("fechas",
@@ -66,13 +66,13 @@ ui <- fluidPage(
                     value = FALSE),
 
        checkboxInput("ajuste",
-                     "Ajuste dos dados pela inflação", value = FALSE)
+                     "Ajuste dos dados pela inflação (teste)", value = FALSE)
     ),
 
     mainPanel(
     #  textOutput("var_seleccionada")
-      plotOutput("plot")
-     # textOutput("b")
+      plotOutput("plot"),
+      textOutput("b")
       )
   )
 )
@@ -123,7 +123,7 @@ server <- function(input, output) {
             })
           output$b = renderText({re()})
 
-
+          data <- switch(input$siglas, acoes$cod, acoes$company)
 
 }
 
