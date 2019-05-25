@@ -1,5 +1,5 @@
 ---
-title: Apps
+title: Publicações
 
 # View.
 #   1 = List
@@ -15,4 +15,3 @@ header:
 ---
 
 
-Shiny Apps teste
