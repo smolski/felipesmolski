@@ -1,0 +1,24 @@
+---
+title: Bibliografia Indicada
+author: Felipe Smolski
+date: '2019-06-18'
+slug: test
+categories: []
+tags: ['bibliografia','R','estatística','econometria', 'análise de dados']
+bibliography: "d:/Users/Felipe/Documents/library.bib"
+csl: 
+nocite: '@Ferreira2018, @fawcett2016data, @Gujarati2011, @Hosmer2000, @Amaral2016, @sartoris2003, @Siegel2017, @morettin1986, @R-bookdown, @teamrstudio, @Silva2016c, @Hair2009, @Goldschmidt2015'
+output:
+  md_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+
+
+
+
+
+
+
