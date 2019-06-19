@@ -29,7 +29,7 @@ Mining: Conceitos, técnicas, algoritmos, orientações e aplicações*. 2nd
 ed. Rio de Janeiro: Elsevier.
 
 Gujarati, Damodar N, and Down C Porter. 2011. *Econometria básica*. 5a
-ed. New York: Mc Graw Hill. <http://arxiv.org/abs/1005.0621>.
+ed. New York: Mc Graw Hill. 
 
 Hair, Joseph F, William C Black, Barry J Babin, and Ronald L Tatham.
 2009. *Análise Multivariada de Dados*. 6a ed. São Paulo: Bookman.
@@ -43,7 +43,7 @@ São Paulo: Atual.
 RStudio Team. 2019. “RStudio: Integrated Development Environment for R.”
 Boston, MA.: RStudio, Inc. <http://www.rstudio.com/>.
 
-SARTORIS, ALEXANDRE. 2003. *Estatística e introdução à econometria*. São
+Sartoris, Alexandre. 2003. *Estatística e introdução à econometria*. São
 Paulo: Saraiva.
 
 Siegel, Eric. 2017. *Análise Preditiva: O poder de prever quem vai
