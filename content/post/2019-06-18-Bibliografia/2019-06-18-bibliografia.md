@@ -1,3 +1,19 @@
+---
+title: Bibliografia Indicada
+summary: Bibliografia
+author: Felipe Smolski
+date: '2019-06-18'
+slug: biblio
+categories: []
+tags:
+  -bibliografia
+  -R
+  -estatística
+  -econometria
+  -análise de dados
+---
+
+
 Amaral, Fernando. 2016. *Introdução à Ciência de Dados*. 1st ed. Rio de
 Janeiro: Alta Books.
 
