@@ -7,7 +7,7 @@ slug: post-teste
 categories: []
 tags:
   - rstudio
-  - rmardown
+  - rmarkdown
   - r
 ---
 

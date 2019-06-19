@@ -1,16 +1,16 @@
 ---
-title: Bibliografia Indicada
-summary: Bibliografia
-author: Felipe Smolski
+title: "Bibliografia Indicada"
+author: "Felipe Smolski"
 date: '2019-06-18'
 slug: post-teste
-categories: []
+summary: Bibliografia
 tags:
-  - bibliografia
-  - R
-  - estatística
-  - econometria
-  - análise de dados
+- bibliografia
+- R
+- estatística
+- econometria
+- análise de dados
+categories: []
 ---
 
 
