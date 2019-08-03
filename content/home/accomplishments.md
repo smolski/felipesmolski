@@ -21,11 +21,21 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Data Science Academy, DSA, Brasil"
   organization_url = ""
+  title = "Machine Learning (Carga horária: 96h)"
+  url = ""
+  certificate_url = ""
+  date_start = "2019-07-01"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Data Science Academy, DSA, Brasil"
+  organization_url = ""
   title = "Big Data Fundamentos (Carga horária: 8h)"
   url = ""
   certificate_url = ""
   date_start = "2019-03-01"
-  date_end = ""
+  date_end = "2019-03-31"
   description = ""
 
   
