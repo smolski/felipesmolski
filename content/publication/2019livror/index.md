@@ -1,6 +1,5 @@
 +++
-title = "Software R: Análise estatística de dados utilizando um
-programa livre."
+title = "Software R: Análise estatística de dados utilizando um programa livre"
 date = 2019-09-17T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
