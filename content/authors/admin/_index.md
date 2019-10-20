@@ -86,7 +86,7 @@ user_groups:
 Estatística com R: https://smolski.github.io/softwarelivrer/
 
 
-Livro: (**Software R: Análise estatística de dados utilizando um programa livre**)[http://www.editorafaith.com.br/ebooks/grat/software_r.pdf]
+Livro: [**Software R: Análise estatística de dados utilizando um programa livre**](http://www.editorafaith.com.br/ebooks/grat/software_r.pdf)
 
 Manual Mendeley: https://smolski.gitbooks.io/mendeley/content/
 
