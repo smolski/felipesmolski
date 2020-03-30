@@ -87,7 +87,6 @@ Monitoramento COVID-19: https://smolski.github.io/covid19/
 
 Estatística com R: https://smolski.github.io/softwarelivrer/
 
-
 Livro: [**Software R: Análise estatística de dados utilizando um programa livre**](http://www.editorafaith.com.br/ebooks/grat/software_r.pdf)
 
 Manual Mendeley: https://smolski.gitbooks.io/mendeley/content/
