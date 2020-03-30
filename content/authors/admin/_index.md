@@ -83,6 +83,8 @@ user_groups:
 <!--Possui graduação em Ciências Econômicas pela Universidade Regional do Noroeste do Estado do Rio Grande do Sul - UNIJUÍ (2009), pós-graduação em Gestão de Investimentos pela Faculdade Integrada Grande Fortaleza FGF (2012), mestrado em Desenvolvimento e Políticas Públicas pela Universidade Federal da Fronteira Sul - UFFS, Campus Cerro Largo (2017).
 -->
 
+Monitoramento COVID-19: https://smolski.github.io/covid19/
+
 Estatística com R: https://smolski.github.io/softwarelivrer/
 
 

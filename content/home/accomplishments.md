@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2019-07-01"
   date_end = ""
-  description = "Em andamento"
+  description = ""
 
 [[item]]
   organization = "Data Science Academy, DSA, Brasil"

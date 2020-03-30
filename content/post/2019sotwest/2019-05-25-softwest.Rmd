@@ -1,0 +1,173 @@
+---
+title: Softwares Estatísticos
+author: Felipe Smolski
+date: '2018-03-04'
+slug: test
+categories: []
+tags: ['gtrendsR','softwares estatísticos','r']
+output:
+  md_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# A evolução da busca por softwares estatísticos
+
+Este post tem a intenção de demonstrar a evolução das buscas brasileiras na internet por softwares estatísticos, utilizando para isto o pacote `gtrendsR` no RStudio. Serão explorados os resultados a partir das buscas pelos softwares *r*, *python* (linguagem), *spss* e *stata*.
+
+```{r}
+library(gtrendsR)
+categories[grepl("^Pol", categories$name), ]
+```
+
+
+```{r}
+
+res <- gtrends(c("r","python","spss","stata"), 
+               geo = c("BR"), gprop='web',
+               category = 174)
+plot(res)
+```
+
+```{r}
+mensal=res$interest_over_time
+library(lubridate)
+mensal$ano=year(mensal$date)
+mensal$mes=month(mensal$date)
+library(dplyr)
+
+
+r = mensal %>%
+  filter(keyword=="r") %>%
+  group_by(ano,mes) %>%
+  summarise(hits=max(hits))
+
+stata = mensal %>%
+  filter(keyword=="stata") %>%
+  group_by(ano,mes) %>%
+  summarise(hits=max(hits))
+
+stata = mensal %>%
+  filter(keyword=="stata") %>%
+  group_by(ano,mes) %>%
+  summarise(hits=max(hits))  
+
+spss = mensal %>%
+  filter(keyword=="spss") %>%
+  group_by(ano,mes) %>%
+  summarise(hits=max(hits))  
+
+python = mensal %>%
+  filter(keyword=="python") %>%
+  group_by(ano,mes) %>%
+  summarise(hits=max(hits))  
+
+
+
+```
+
+
+
+
+```{r}
+library(gtrendsR)
+res <- gtrends(c("machine learning","estatística","econometria","big data"), 
+               geo = c("BR"), 
+               category = 174)
+plot(res)
+```
+
+
+```{r}
+library(gtrendsR)
+ijui <- gtrends(c("Desemprego","Futebol","Crise"), 
+               geo = c("BR"), 
+               gprop='web')
+plot(ijui)
+```
+
+
+
+```{r}
+library(purrr)
+library(ggplot2)
+library(BETS)
+library(xts)
+
+presidente=data.frame(Nome=c("Lula", "Dilma","Temer", "Bolsonaro"),
+                      start=c("2003-01-01","2011-01-01","2016-08-31","2019-01-01"),
+                      end = c("2010-31-12","2016-07-31","2018-12-31","2019-08-04"),
+                      partido = c("PT", "PT", "PMDB","PSL"))
+
+
+
+Desocupacao=BETSget(19882)
+SER <- do.call(merge.xts, purrr::map(PIB, as.xts))
+
+library(GetBCBData)
+df.bcb <- gbcbd_get_series(id = 21637)
+
+SER <- rbcb::get_series(c(INADIMPLENCIA = 21637))
+
+  autoplot(rbcb::get_series(c(INADIMPLENCIA = 21637)), facets = NULL) + labs(title = "PIB a preços de mercado SCN-2010", colour = NULL)+ stat_smooth(
+  color = "#FC4E07", fill = "#FC4E07",  method = "loess")+
+  # geom_rect(aes(xmin=2010, xmax=2011, ymin=-Inf, ymax=+Inf), fill="red", alpha=0.002)+
+  # geom_rect(data=Emprego,aes(xmin=2003, xmax=2010, ymin=-Inf, ymax=+Inf), fill="red", colour = "red", alpha=0.01)+
+      annotate(data=Emprego, "rect", xmin = 2003.1, xmax = 2011.1, ymin=-Inf,  ymax=Inf, fill="red", alpha=0.05)+
+        annotate(data=Emprego, "rect", xmin = 2011.1, xmax = 2016.8, ymin=-Inf,  ymax=Inf, fill="red", alpha=0.1)+
+          annotate(data=Emprego, "rect", xmin = 2016.8, xmax = 2018.12, ymin=-Inf,  ymax=Inf, fill="blue", alpha=0.05)+
+            annotate(data=Emprego, "rect", xmin = 2018.12, xmax = 2019.12, ymin=-Inf,  ymax=Inf, fill="green", alpha=0.05)+
+    theme_bw()
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+bndes = BETSget(20539, from='2007-03-01')
+# bndes_pj = BETSget(20604)
+# bndes_pf = BETSget(20616)
+# bndes = bndes_pf+bndes_pj
+ 
+# img = readPNG('logo.png')
+ g = rasterGrob(img, interpolate=TRUE)
+ 
+autoplot(bndes)+
+geom_line(size=.8)+
+scale_x_discrete(limits=2007:2019)+
+labs(x='', y='%',
+title='Participação do BNDES no Crédito Total',
+caption='Fonte: analisemacro.com.br com dados do BCB')+
+theme(panel.background = element_rect(fill='#acc8d4',
+colour='#acc8d4'),
+plot.background = element_rect(fill='#8abbd0'),
+axis.line = element_line(colour='black',
+linetype = 'dashed'),
+axis.line.x.bottom = element_line(colour='black'),
+panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+legend.position = 'bottom',
+legend.background = element_rect((fill='#acc8d4')),
+legend.key = element_rect(fill='#acc8d4',
+colour='#acc8d4'),
+plot.margin=margin(5,5,15,5))+
+annotation_custom(g,
+xmin=2007.3,
+xmax=2009.3,
+ymin=18, ymax=22)
+```
+
+
+```{r}
+PIB <- BETSget(c(7331,7332,7333,7334,7335)) # PIB SERVIÇOS, INDÚSTRIA -- IBGE
+library(xts)
+library(purrr)
+SER <- do.call(merge.xts, purrr::map(PIB, as.xts))
+names(SER) <- c("CONSUMO FAMÍLIAS", "CONSUMO GOVERNO","FBKF","EXPORTAÇÃO","IMPORTAÇÃO")
+autoplot(SER, facets = NULL) + labs(title = "Demanda Agregada", colour = NULL)
+```
+
