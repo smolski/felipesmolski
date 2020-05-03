@@ -13,15 +13,15 @@
   url = "#posts"
   weight = 20
 
-[[main]]
-  name = "Projetos"
-  url = "#projects"
-  weight = 30
+#[[main]]
+#  name = "Projetos"
+#  url = "#projects"
+#  weight = 30
 
-[[main]]
-  name = "Publicações"
-  url = "#featured"
-  weight = 40
+#[[main]]
+#  name = "Publicações"
+#  url = "#featured"
+#  weight = 40
 
 [[main]]
   name = "Apps"
