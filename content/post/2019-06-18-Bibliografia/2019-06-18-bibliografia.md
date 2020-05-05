@@ -13,7 +13,6 @@ tags:
 categories: []
 ---
 
-
 Amaral, Fernando. 2016. *Introdução à Ciência de Dados*. 1st ed. Rio de
 Janeiro: Alta Books.
 
