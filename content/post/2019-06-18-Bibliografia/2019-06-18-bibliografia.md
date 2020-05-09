@@ -4,7 +4,7 @@ author: "Felipe Smolski"
 date: '2019-06-18'
 slug: post-teste
 summary: Bibliografia
-active = false
+active: false
 tags:
 - bibliografia
 - R
