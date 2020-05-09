@@ -1,14 +1,12 @@
 ---
-title: Fontes sobre o COVID-19
-summary: Mensagem
+title: Fontes sobre o COVID19
 author: Felipe Smolski
 date: '2020-05-08'
 slug: fontes-covid
 categories: []
-tags:
-  - covid-19
-  - matérias
-  - artigos
+tags: ['covid19','matérias','artigos']
+output:
+  md_document  
 ---
 
 Algumas fontes de informação sobre o COVID-19 (atualizado em 08/05/2020).
