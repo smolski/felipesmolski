@@ -63,3 +63,7 @@ Gerais](https://geesc.cedeplar.ufmg.br/pandemia-por-covid-19-em-minas-gerais-atu
 - Vídeos:
 
 [Reflexões sociológicas em tempos de quarentena, prof. Dr. Edemar Rotta](https://www.youtube.com/watch?v=T46BfiyiPLQ&feature=youtu.be)
+
+- Livro:
+
+[Quarentena: reflexões sobre a pandemia e depois / Anjuli Tostes, Hugo Melo Filho; ilustração de Carlo Giambarresi. – 1.ed. – Bauru: Canal 6, 2020](http://editorapraxis.com.br/quarentena/ebook_quarentena_1ed_2020.pdf)
