@@ -59,3 +59,7 @@ COVID-19](https://geesc.cedeplar.ufmg.br/wp-content/uploads/2020/03/Nota-tecnica
 
 [Pandemia em Minas
 Gerais](https://geesc.cedeplar.ufmg.br/pandemia-por-covid-19-em-minas-gerais-atualizado/)
+
+- Vídeos:
+
+[Reflexões sociológicas em tempos de quarentena, prof. Dr. Edemar Rotta](https://www.youtube.com/watch?v=T46BfiyiPLQ&feature=youtu.be)
