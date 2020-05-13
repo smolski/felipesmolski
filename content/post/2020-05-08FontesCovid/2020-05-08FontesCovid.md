@@ -36,8 +36,9 @@ Algumas fontes de informação sobre o COVID-19 (atualizado em
 
 -   [IBGE COVID-19](https://covid19.ibge.gov.br/)
 
--   [UFSM Observatório
-    Covid](https://www.ufsm.br/coronavirus/observatorio/)
+-   [UFSM Observatório Covid](https://www.ufsm.br/coronavirus/observatorio/)
+    
+-   [ObservaDR/Covid-19](http://observadr.org.br/portal/observadr-covid-19/)
 
 -   Artigos e reportagens:
 
