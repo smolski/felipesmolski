@@ -83,14 +83,14 @@ user_groups:
 <!--Possui graduação em Ciências Econômicas pela Universidade Regional do Noroeste do Estado do Rio Grande do Sul - UNIJUÍ (2009), pós-graduação em Gestão de Investimentos pela Faculdade Integrada Grande Fortaleza FGF (2012), mestrado em Desenvolvimento e Políticas Públicas pela Universidade Federal da Fronteira Sul - UFFS, Campus Cerro Largo (2017).
 -->
 
-Monitoramento COVID-19: https://smolski.github.io/covid19/
+- [Monitoramento COVID-19](https://smolski.github.io/covid19/)
 
-Disponibilidade de Leitos no RS: https://smolski.github.io/LeitosCovidRS/
+- [Disponibilidade de Leitos no RS](https://smolski.github.io/LeitosCovidRS/)
 
-Estatística com R: https://smolski.github.io/softwarelivrer/
+- [Estatística com R](https://smolski.github.io/softwarelivrer/)
 
-Livro: [**Software R: Análise estatística de dados utilizando um programa livre**](http://www.editorafaith.com.br/ebooks/grat/978-85-68221-44-0.pdf)
+- Livro: [**Software R: Análise estatística de dados utilizando um programa livre**](http://www.editorafaith.com.br/ebooks/grat/978-85-68221-44-0.pdf)
 
-Manual Mendeley: https://smolski.gitbooks.io/mendeley/content/
+- [Manual Mendeley](https://smolski.gitbooks.io/mendeley/content/)
 
 
