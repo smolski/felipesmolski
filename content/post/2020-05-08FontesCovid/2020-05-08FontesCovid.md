@@ -1,6 +1,6 @@
 ---
 title: Fontes sobre o COVID19
-summary: Mensagem
+summary: post
 author: Felipe Smolski
 date: '2020-05-08'
 categories: []
@@ -11,23 +11,19 @@ tags:
 ---
 
 
-Algumas fontes de informação sobre o COVID-19 (atualizado em
-08/05/2020).
+Algumas fontes de informação sobre o COVID-19 (atualizado em 08/05/2020).
 
 -   [COVID-19 no Brasil e no mundo](https://smolski.github.io/covid19/)
 
--   [OMS - Coronavirus disease (COVID-2019) situation
-    reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
+-   [OMS - Coronavirus disease (COVID-2019) situation reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
 
 -   [Coronavírus - Saúde RS](https://saude.rs.gov.br/coronavirus)
 
--   [Coronavírus - Ministério da
-    Saúde](https://coronavirus.saude.gov.br/)
+-   [Coronavírus - Ministério da Saúde](https://coronavirus.saude.gov.br/)
 
 -   [IPEA Coronavírus](https://www.ipea.gov.br/coronavirus/)
 
--   [Instituto de Estudos para políticas de Saúde
-    IEPS](https://ieps.org.br/)
+-   [Instituto de Estudos para políticas de Saúde IEPS](https://ieps.org.br/)
 
 -   [UTFPR - Projeção
     COVID-19](https://covid.sh.utfpr.edu.br/projecao-covid-19/)
@@ -58,8 +54,7 @@ gerais, UTI e equipamentos de ventilação assistida no Brasil em função
 da pandemia do
 COVID-19](https://geesc.cedeplar.ufmg.br/wp-content/uploads/2020/03/Nota-tecnica-final-COVID-19-revisado2.pdf)
 
-[Pandemia em Minas
-Gerais](https://geesc.cedeplar.ufmg.br/pandemia-por-covid-19-em-minas-gerais-atualizado/)
+[Pandemia em Minas Gerais](https://geesc.cedeplar.ufmg.br/pandemia-por-covid-19-em-minas-gerais-atualizado/)
 
 - Vídeos:
 
