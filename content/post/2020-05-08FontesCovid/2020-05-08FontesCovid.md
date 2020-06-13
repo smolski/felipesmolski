@@ -17,6 +17,8 @@ Algumas fontes de informação sobre o COVID-19 (atualizado em 08/05/2020).
 
 -   [OMS - Coronavirus disease (COVID-2019) situation reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
 
+-   [Painel Conass](http://www.conass.org.br/painelconasscovid19/)
+
 -   [Coronavírus - Saúde RS](https://saude.rs.gov.br/coronavirus)
 
 -   [Coronavírus - Ministério da Saúde](https://coronavirus.saude.gov.br/)
