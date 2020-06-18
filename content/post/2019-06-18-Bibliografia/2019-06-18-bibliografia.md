@@ -17,6 +17,8 @@ categories: []
 Amaral, Fernando. 2016. *Introdução à Ciência de Dados*. 1st ed. Rio de
 Janeiro: Alta Books.
 
+Battisti, I. D. E.,  Smolski, F. M. da S. 2019. *Software R: Análise estatística de dados utilizando um programa livre.* Bagé:Faith.
+
 Fawcett, Tom, and Foster Provost. 2016. *Data Science para negócios: O
 que você precisa saber sobre mineração de dados e pensamento analítico
 de dados*. Rio de janeiro: Alta Books Editora.
