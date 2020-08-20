@@ -18,3 +18,4 @@ header:
 
 - [Stock Market](https://smolski.shinyapps.io/stock/)
 
+- [Monitoramento COVID-19](https://smolski.shinyapps.io/covid19app/)
