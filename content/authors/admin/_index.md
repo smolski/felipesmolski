@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Felipe Smolski
+name: Felipe Micail da Silva Smolski
 
 # Username (this should match the folder name)
 authors:
@@ -21,20 +21,17 @@ organizations:
 bio: 
 
 interests:
-- Economia e Desenvolvimento
-- Análise Estatística com R
+- Economic Development
+- Statistics with R
 - RStudio
 
 education:
   courses:
-  - course: Mestrado em Desenvolvimento e Políticas Públicas
-    institution: Universidade Federal da Fronteira Sul (UFFS)
+  - course: Msc in Development and Public Policies
+    institution: Federal University of South Frontier (UFFS)
     year: 2017
-  - course: Especialização em Gestão de Investimentos
-    institution: Faculdade Integrada da Grande Fortaleza (FGF)
-    year: 2012
-  - course: Graduação em Ciências Econômicas
-    institution: Universidade Regional do Noroeste do Rio Grande do Sul (Unijuí)
+  - course: BSc in Economic Sciences
+    institution: Northwestern Regional University of the State of Rio Grande do Sul (Unijuí)
     year: 2009
 
 # Social/Academic Networking
