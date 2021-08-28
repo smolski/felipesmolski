@@ -3,7 +3,7 @@ title: "Bibliography"
 author: "Felipe Smolski"
 date: '2019-06-18'
 slug: post-teste
-summary: Bibliografia
+summary: Bibliography
 active: false
 tags:
 - Bibliography
