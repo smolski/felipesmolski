@@ -1,16 +1,15 @@
 ---
-title: "Bibliografia Indicada"
+title: "Bibliography"
 author: "Felipe Smolski"
 date: '2019-06-18'
 slug: post-teste
 summary: Bibliografia
 active: false
 tags:
-- bibliografia
+- Bibliography
 - R
-- estatística
-- econometria
-- análise de dados
+- statistics
+- econometrics
 categories: []
 ---
 

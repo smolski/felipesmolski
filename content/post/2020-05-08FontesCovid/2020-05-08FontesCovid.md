@@ -1,17 +1,17 @@
 ---
-title: Fontes sobre o COVID19
+title: Sources about COVID-19
 summary: post
 author: Felipe Smolski
 date: '2020-05-08'
 categories: []
 tags:
   - covid19
-  - artigos
-  - matérias
+  - papers
+  - journals
 ---
 
 
-Algumas fontes de informação sobre o COVID-19 (atualizado em 08/05/2020).
+Some sources about COVID-19 (updated in 2020-05-08).
 
 -   [COVID-19 no Brasil e no mundo](https://smolski.github.io/covid19/)
 
