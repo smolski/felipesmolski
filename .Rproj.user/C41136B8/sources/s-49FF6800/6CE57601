@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1592099697713.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "715976839",
+    "id" : "6CE57601",
+    "lastKnownWriteTime" : 1608398358,
+    "last_content_update" : 1608398358500,
+    "path" : "D:/Github/felipesmolski/content/post/2020-06-13-Covid-Dist/2020-06-16-coviddist.Rmd",
+    "project_path" : "content/post/2020-06-13-Covid-Dist/2020-06-16-coviddist.Rmd",
+    "properties" : {
+        "cursorPosition" : "56,63",
+        "last_setup_crc32" : "49FF680086caa7c1",
+        "scrollLine" : "51"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

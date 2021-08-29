@@ -1,0 +1,31 @@
+"0","autoplot(bndes)+
+geom_line(size=.8)+
+scale_x_discrete(limits=2007:2019)+
+labs(x='', y='%',
+title='Participação do BNDES no Crédito Total',
+caption='Fonte: analisemacro.com.br com dados do BCB')+
+theme(panel.background = element_rect(fill='#acc8d4',
+colour='#acc8d4'),
+plot.background = element_rect(fill='#8abbd0'),
+axis.line = element_line(colour='black',
+linetype = 'dashed'),
+axis.line.x.bottom = element_line(colour='black'),
+panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+legend.position = 'bottom',
+legend.background = element_rect((fill='#acc8d4')),
+legend.key = element_rect(fill='#acc8d4',
+colour='#acc8d4'),
+plot.margin=margin(5,5,15,5))+
+annotation_custom(g,
+xmin=2007.3,
+xmax=2009.3,
+ymin=18, ymax=22)
+"
+"2","Continuous limits supplied to discrete scale.
+Did you mean `limits = factor(...)` or `scale_*_continuous()`?"
+"2","Scale for 'x' is already present. Adding another scale for 'x', which will replace the existing scale.
+"
+"2","Error in layer(data = dummy_data(), stat = StatIdentity, position = PositionIdentity,  : 
+  objeto 'g' não encontrado
+"

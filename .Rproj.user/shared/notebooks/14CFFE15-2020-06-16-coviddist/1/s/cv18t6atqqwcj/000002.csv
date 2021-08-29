@@ -1,0 +1,15 @@
+"0","bra.rs = tidyr::gather(brasil, ""Local"", ""Valor"", 9:14) %>%"
+"0","         dplyr::filter(`iso_3166_2_code` %in% c(""BR-RS"", ""Brasil"")) "
+"0",""
+"0","bra.rs.bra.trab = bra.rs %>% filter(`Região` %in% c(""Brasil""),"
+"0","                                    date > ""2020-03-17"","
+"0","                                    Local ==""Trabalho"")"
+"0",""
+"0","bra.rs.rs.trab = bra.rs %>% filter(`Região` ==""BR-RS"", "
+"0","                                   date > ""2020-03-17"","
+"0","                                   Local ==""Trabalho"")"
+"0",""
+"0","var.test(bra.rs.bra.trab$Valor, bra.rs.rs.trab$Valor)"
+"2","Error in var.test.default(bra.rs.bra.trab$Valor, bra.rs.rs.trab$Valor) : 
+  número de observações 'x' insuficiente
+"

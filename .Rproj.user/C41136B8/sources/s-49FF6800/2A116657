@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1608397564715.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2A116657",
+    "lastKnownWriteTime" : 1953406663848,
+    "last_content_update" : 1608397564715,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "95A98506",
+        "caption" : "Global_Mobility_Report",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Global_Mobility_Report&cache_key=95A98506",
+        "displayedObservations" : 3516371,
+        "environment" : "",
+        "expression" : "Global_Mobility_Report",
+        "object" : "Global_Mobility_Report",
+        "preview" : 0,
+        "totalObservations" : 3516371,
+        "variables" : 14
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,48 @@
+"0","library(purrr)"
+"0","library(ggplot2)"
+"0","library(BETS)"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"
+"2","Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+"
+"2","Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+"
+"2","
+Attaching package: ‘BETS’
+
+"
+"2","The following object is masked from ‘package:stats’:
+
+    predict
+
+"
+"0","library(xts)"
+"2","Carregando pacotes exigidos: zoo
+"
+"2","
+Attaching package: ‘zoo’
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+"
+"0","presidente=data.frame(Nome=c(""Lula"", ""Dilma"",""Temer"", ""Bolsonaro""),"
+"0","                      start=c(""2003-01-01"",""2011-01-01"",""2016-08-31"",""2019-01-01""),"
+"0","                      end = c(""2010-31-12"",""2016-07-31"",""2018-12-31"",""2019-08-04""),"
+"0","                      partido = c(""PT"", ""PT"", ""PMDB"",""PSL""))"
+"0",""
+"0",""
+"0",""
+"0","Desocupacao=BETSget(19882)"
+"0","SER <- do.call(merge.xts, purrr::map(PIB, as.xts))"
+"2","Error in UseMethod(""as.xts"") : 
+  mÃ©todo nÃ£o aplicÃ¡vel para 'as.xts' aplicado a um objeto de classe ""character""
+"

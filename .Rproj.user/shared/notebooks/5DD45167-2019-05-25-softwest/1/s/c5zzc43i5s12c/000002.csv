@@ -1,0 +1,5 @@
+"0","library(gtrendsR)"
+"0","ijui <- gtrends(c(""Desemprego"",""Futebol"",""Crise""), "
+"0","               geo = c(""BR""), "
+"0","               gprop='web')"
+"0","plot(ijui)"

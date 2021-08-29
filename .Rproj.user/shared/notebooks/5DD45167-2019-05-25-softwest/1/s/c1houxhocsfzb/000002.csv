@@ -1,0 +1,5 @@
+"0","library(gtrendsR)"
+"0","res <- gtrends(c(""machine learning"",""estatística"",""econometria"",""big data""), "
+"0","               geo = c(""BR""), "
+"0","               category = 174)"
+"0","plot(res)"

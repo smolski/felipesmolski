@@ -1,0 +1,79 @@
+"0","library(readr)"
+"0","library(dplyr)"
+"2","
+Attaching package: ëdplyrí
+
+"
+"2","The following objects are masked from ëpackage:statsí:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ëpackage:baseí:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(ggplot2)"
+"0","library(tidyr)"
+"0","library(lubridate)"
+"2","
+Attaching package: ëlubridateí
+
+"
+"2","The following objects are masked from ëpackage:baseí:
+
+    date, intersect, setdiff, union
+
+"
+"0","Global_Mobility_Report <- read_csv(""https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv?cachebust=694ae9957380f150"")"
+"2","Parsed with column specification:
+cols(
+  country_region_code = [31mcol_character()[39m,
+  country_region = [31mcol_character()[39m,
+  sub_region_1 = [31mcol_character()[39m,
+  sub_region_2 = [33mcol_logical()[39m,
+  metro_area = [33mcol_logical()[39m,
+  iso_3166_2_code = [31mcol_character()[39m,
+  census_fips_code = [33mcol_logical()[39m,
+  date = [34mcol_date(format = """")[39m,
+  retail_and_recreation_percent_change_from_baseline = [32mcol_double()[39m,
+  grocery_and_pharmacy_percent_change_from_baseline = [32mcol_double()[39m,
+  parks_percent_change_from_baseline = [32mcol_double()[39m,
+  transit_stations_percent_change_from_baseline = [32mcol_double()[39m,
+  workplaces_percent_change_from_baseline = [32mcol_double()[39m,
+  residential_percent_change_from_baseline = [32mcol_double()[39m
+)
+"
+"2","3699420 parsing failures.
+ row        col           expected                  actual                                                                                             file
+2694 metro_area 1/0/T/F/TRUE/FALSE Kabul Metropolitan Area 'https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv?cachebust=694ae9957380f150'
+2695 metro_area 1/0/T/F/TRUE/FALSE Kabul Metropolitan Area 'https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv?cachebust=694ae9957380f150'
+2696 metro_area 1/0/T/F/TRUE/FALSE Kabul Metropolitan Area 'https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv?cachebust=694ae9957380f150'
+2697 metro_area 1/0/T/F/TRUE/FALSE Kabul Metropolitan Area 'https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv?cachebust=694ae9957380f150'
+2698 metro_area 1/0/T/F/TRUE/FALSE Kabul Metropolitan Area 'https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv?cachebust=694ae9957380f150'
+.... .......... .................. ....................... ................................................................................................
+See problems(...) for more details.
+"
+"0","View(Global_Mobility_Report)"
+"0",""
+"0","brasil = Global_Mobility_Report %>%"
+"0","  filter(country_region == ""Brazil"")"
+"0","brasil$date = as.Date(brasil$date)"
+"0","colnames(brasil)[5]=""Regi√£o"""
+"0","colnames(brasil)[8]=""Varejo e Recrea√ß√£o"""
+"0","colnames(brasil)[9]=""Mercados e Farm√°cias"""
+"0","colnames(brasil)[10]=""Parques"""
+"0","colnames(brasil)[11]=""Esta√ß√µes"""
+"0","colnames(brasil)[12]=""Trabalho"""
+"0","colnames(brasil)[13]=""Resid√™ncias"""
+"0",""
+"0","brasil$`Regi√£o` = ifelse(is.na(brasil$`Regi√£o`) == TRUE, ""Brasil"", brasil$`Regi√£o`)"
+"0","brasil$dia.s = wday(brasil$date, label=TRUE)"
+"2","Unknown or uninitialised column: `date`."
+"2","tz(): Don't know how to compute timezone for object of class NULL; returning ""UTC"". This warning will become an error in the next major version of lubridate."
+"2","Erro: Assigned data `wday(brasil$date, label = TRUE)` must be compatible with existing data.
+[31mx[39m Existing data has 555793 rows.
+[31mx[39m Assigned data has 0 rows.
+[34mi[39m Only vectors of size 1 are recycled.
+"
