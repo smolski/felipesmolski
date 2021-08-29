@@ -5,7 +5,7 @@ headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "Projetos"
+title = "Projects"
 subtitle = ""
 
 [content]
@@ -41,7 +41,7 @@ subtitle = ""
   #   1 = List
   #   3 = Card
   #   5 = Showcase
-  view = 3
+  view = 5
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false
@@ -75,8 +75,8 @@ subtitle = ""
 +++
 
 
-**Software R: capacitação em análise estatística de dados utilizando um software livre**
+**Software R: training in statistical data analysis using open source software**
 
-O objetivo principal do projeto é atender alunos, bolsistas, comunidade interna e externa através de cursos de capacitação na análise de dados primários ou secundários utilizando um software livre de análise estatística, especificamente o software R em seu console RStudio. Ainda, objetiva-se a troca de experiências vinculando dados provindos de diferentes pesquisas dos participantes.
+The project aims to serve students, scholarship holders, internal and external community through training courses in the analysis of primary or secondary data using a free statistical analysis software, specifically the R software in RStudio console. Still, the objective is the exchange of experiences linking data from different surveys of the participants.
 
 https://smolski.github.io/softwarelivrer/
