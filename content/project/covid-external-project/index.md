@@ -1,15 +1,15 @@
 ---
-title: Availability of Hospital Beds in RS - Brazil
+title: COVID-19 Monitoring
 summary: 
 tags:
 - Demo
 date: "2020-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://smolski.github.io/LeitosCovidRS/
+external_link: https://smolski.shinyapps.io/covid19app/
 
 image:
-  caption: beds
+  caption: covid-19
   focal_point: Smart
 ---
 
