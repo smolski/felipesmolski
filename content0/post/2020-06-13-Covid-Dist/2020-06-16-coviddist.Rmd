@@ -1,0 +1,123 @@
+---
+title: Distanciamento Social e COVID19 no RS
+author: Felipe Smolski
+date: '2020-06-16'
+slug: test
+categories: []
+tags: ['Distanciamento','covid-19']
+output:
+  html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# O distanciamento social no RS
+
+```{r, include=FALSE}
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(lubridate)
+
+Global_Mobility_Report <- read_csv("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv?cachebust=694ae9957380f150")
+View(Global_Mobility_Report)
+
+brasil = Global_Mobility_Report %>%
+  filter(country_region == "Brazil")
+brasil$date = as.Date(brasil$date)
+colnames(brasil)[2]="Região"
+colnames(brasil)[9]="Varejo e Recreação"
+colnames(brasil)[10]="Mercados e Farmácias"
+colnames(brasil)[11]="Parques"
+colnames(brasil)[12]="Estações"
+colnames(brasil)[13]="Trabalho"
+colnames(brasil)[14]="Residências"
+
+brasil$`Região` = ifelse(is.na(brasil$`Região`) == TRUE, "Brasil", brasil$`Região`)
+brasil$dia.s = wday(brasil$date, label=TRUE)
+brasil = brasil %>% filter(dia.s %in% c("seg", "ter","qua","qui","sex","sab"))
+
+brasil.br = brasil %>% filter(is.na(`Região`) == TRUE)
+brasil.br = gather(brasil.br, "Local", "Valor", 9:14)
+
+brasil.rs = brasil %>% filter(`Região` == "BR-RS")
+
+brasil.rs = gather(brasil.rs, "Local", "Valor", 9:14)
+```
+
+
+```{r, echo=FALSE, include=TRUE,  fig.width=8, fig.height=8}
+library(dplyr)
+library(tidyr)
+library(lubridate)
+
+tidyr::gather(brasil, "Local", "Valor", 9:14) %>%
+         dplyr::filter(`iso_3166_2_code` %in% c("BR-RS", "BR-RS")) %>%
+  
+ggplot( aes(x = date, y = Valor, fill = `iso_3166_2_code`, col = `iso_3166_2_code`))+
+  geom_line()+ 
+  geom_point()+
+  theme(legend.position="bottom")+
+  # theme_bw()+
+  xlab("Data")+
+  labs(title = "Relatório de Mobilidade no Brasil, RS e SP (15/02/2020 a 12/06/2020)", subtitle = "Fonte: Google - COVID-19: Relatórios de mobilidade da comunidade\nAutor: Felipe Smolski")+
+  # scale_color_brewer(palette="Set1")+ 
+  facet_wrap(. ~ Local, ncol=2)+
+  # geom_smooth(color = "black", alpha = 0.5, method = "lm", se = F)+
+  # geom_smooth()+
+  # geom_smooth(method = "lm", se = FALSE
+              # ,color = "black"
+              # )+
+   geom_vline(xintercept = as.numeric(ymd("2020-03-17")), linetype="dashed", color = "black", size=0.5)+
+   geom_hline(yintercept = 0, color = "gray", size=0.5)+
+   annotate("text", x = ymd("2020-03-17"), y=0, label = "Bra/RS", vjust = -.5, hjust = -.5 , angle=90, color = "black")
+
+
+
+```
+
+
+
+
+```{r, echo=FALSE}
+bra.rs = tidyr::gather(brasil, "Local", "Valor", 9:14) %>%
+         dplyr::filter(`iso_3166_2_code` %in% c("BR-RS", "Brasil")) 
+
+bra.rs.bra.trab = bra.rs %>% filter(`Região` %in% c("Brasil"),
+                                    date > "2020-03-17",
+                                    Local =="Trabalho")
+
+bra.rs.rs.trab = bra.rs %>% filter(`Região` =="BR-RS", 
+                                   date > "2020-03-17",
+                                   Local =="Trabalho")
+
+var.test(bra.rs.bra.trab$Valor, bra.rs.rs.trab$Valor)
+
+t.test(bra.rs.bra.trab$Valor, bra.rs.rs.trab$Valor, var.equal = TRUE, paired = FALSE)
+
+library(rcompanion)
+
+Sum = groupwiseMean(Valor ~ `Região`,
+                    data   = bra.rs,
+                    conf   = 0.95,
+                    digits = 3)
+
+Sum
+
+ggplot(Sum,                ### The data frame to use.
+       aes(x = `Região`,
+           y = Mean)) +
+   geom_errorbar(aes(ymin = Trad.lower,
+                     ymax = Trad.upper),
+                     width = 0.05,
+                     size  = 0.5) +
+   geom_point(shape = 15,
+              size  = 4) +
+   theme_bw() +
+   theme(axis.title   = element_text(face  = "bold")) +
+
+    ylab("Mean steps")
+```
+

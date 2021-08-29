@@ -1,0 +1,21 @@
+---
+title: "RF-7 Leitos"
+author: Felipe Smolski
+date: '2018-03-04'
+slug: test
+categories: []
+tags: ['Test']
+output:
+  md_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# R Markdown
+
+
+```{r}
+knitr::include_graphics("figures/pdf_example/Lyngs2020_FB.pdf")
+```
+
