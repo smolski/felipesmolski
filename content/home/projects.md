@@ -75,8 +75,5 @@ subtitle = ""
 +++
 
 
-**Software R: training in statistical data analysis using open source software**
 
-The project aims to serve students, scholarship holders, internal and external community through training courses in the analysis of primary or secondary data using a free statistical analysis software, specifically the R software in RStudio console. Still, the objective is the exchange of experiences linking data from different surveys of the participants.
 
-https://smolski.github.io/softwarelivrer/
